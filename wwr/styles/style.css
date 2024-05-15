@@ -54,18 +54,21 @@ h4{
     color: #EBEBEB;
     background-color: #2B5A87;
 }
+.msg{
+    background-color: #004E98;
+}
 .msg h2{
     color: #FF6700;
 }
 .msg p{
     color: #EBEBEB;
-    background-color: #004E98;
 }
 footer{
-    color: #004E98;
+    color: #EBEBEB;
+    background-color: #004E98;
 }
 footer a{
-    color: #004E98;
+    color: #EBEBEB;
     text-decoration: none;
 }
 footer a:hover{
