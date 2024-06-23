@@ -187,6 +187,33 @@ nav{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+#rivers-img{
+    width:100%;
+    height:500px;
+}
+.rivers-title{
+    color: #2B5A87;
+    font-size: 2em;
+    font-family: 'Rock Salt', Times;
+    margin-top: 10px;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.rivers-grid img {
+    grid-column: 1;
+    width: 100%;
+    height: auto;
+}
+
+.rivers-grid section {
+    grid-column: 2;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
