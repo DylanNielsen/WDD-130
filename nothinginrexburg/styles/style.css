@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #FFFAFA;
+    color: #B22222;
+}
+header{
+    background-color:#ffd90098;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 80px;
+    height: auto;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
+body{
+    background-color: #FFFAFA;
+    font-size: 22px;
+    font-family: 'Lora', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.home-title{
+    color: #176117;
+    font-size: 2em;
+    font-family: 'Raleway', Times;
+    margin-top: 10px;
+}
+h4{
+    color: black;
+}
+h3{
+    color: #B22222;
+    font-family: 'Raleway', Times;
+}
+h2{
+    color: #87ceeb;
+    font-family: 'Raleway', Times;
+    text-align: center;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.Intro, .Top3{
+    grid-column: 1/3;
+    text-align: center;
+}
+.home-grid img{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    grid-column: 2/3;
+}
+section{
+    padding: 10px;
+}
+
+.roots, .righteous, .porter{
+    grid-column: 1/2;
+    align-self: center;
+}
+footer{
+    color: black;
+    background-color: #87ceeb;
+    padding: 25px 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #FFFAFA;
+    color: #B22222;
+}
+footer p{
+    font-size: 1.2em;
+    margin-top: 200px;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
