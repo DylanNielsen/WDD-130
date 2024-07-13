@@ -178,3 +178,27 @@ footer p a:hover{
     justify-content: center;
     align-items: center;
 }
+.sidenav{
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #B0C4DE;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #176117;
+    display: block;
+}
+.sidenav a:hover{
+    color: #B22222;
+}
+.main{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
